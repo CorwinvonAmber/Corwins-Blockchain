@@ -1,0 +1,13 @@
+source .env #load the environment variables
+
+forge create --rpc-url https://rpc2.sepolia.org --private-key $PRIVATE_KEY --etherscan-api-key $ETHERSCAN_KEY --verify src/FoundryNFT.sol:FoundryNFT
+[⠒] Compiling...
+No files changed, compilation skipped
+Deployer: 0x1C9c3c5d6DFD70FFc9D5C6a475966CC788F52Cf2
+Deployed to: 0x7E27E0886e5862A16E195ba1e2176772c5C54bF8
+Transaction hash: 0x81b647b20e3ed69658b89e31132c675624c7f7c4f1b6923135b3532e02b8dd2b
+Starting contract verification...
+Waiting for etherscan to detect contract deployment...
+Start verifying contract `0x7E27E0886e5862A16E195ba1e2176772c5C54bF8` deployed on sepolia
+
+Contract [src/FoundryNFT.sol:FoundryNFT] "0x7E27E0886e5862A16E195ba1e2176772c5C54bF8" is already verified. Skipping verification.
